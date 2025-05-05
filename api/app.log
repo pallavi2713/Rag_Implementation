@@ -1,0 +1,274 @@
+INFO:root:Session ID: string, User Query: what is cancer?, Model: gemini-2.0-flash
+INFO:root:Session ID: string, User Query: cancer, Model: gemini-2.0-flash
+INFO:root:Session ID: string, User Query: st, Model: gemini-2.0-flash
+INFO:root:Session: 1a4abf08-4651-4b9b-ab9a-1b2714025dc8, Query: what is sky
+ERROR:root:Chat error: 8 validation errors for ChatGoogleGenerativeAI
+safety_settings.HARM_CATEGORY_HARASSMENT.[key]
+  Input should be 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 or 11 [type=enum, input_value='HARM_CATEGORY_HARASSMENT', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+safety_settings.HARM_CATEGORY_HARASSMENT
+  Input should be 0, 1, 2, 3, 4 or 5 [type=enum, input_value='BLOCK_NONE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+safety_settings.HARM_CATEGORY_HATE_SPEECH.[key]
+  Input should be 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 or 11 [type=enum, input_value='HARM_CATEGORY_HATE_SPEECH', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+safety_settings.HARM_CATEGORY_HATE_SPEECH
+  Input should be 0, 1, 2, 3, 4 or 5 [type=enum, input_value='BLOCK_NONE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+safety_settings.HARM_CATEGORY_SEXUALLY_EXPLICIT.[key]
+  Input should be 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 or 11 [type=enum, input_value='HARM_CATEGORY_SEXUALLY_EXPLICIT', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+safety_settings.HARM_CATEGORY_SEXUALLY_EXPLICIT
+  Input should be 0, 1, 2, 3, 4 or 5 [type=enum, input_value='BLOCK_NONE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+safety_settings.HARM_CATEGORY_DANGEROUS_CONTENT.[key]
+  Input should be 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 or 11 [type=enum, input_value='HARM_CATEGORY_DANGEROUS_CONTENT', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+safety_settings.HARM_CATEGORY_DANGEROUS_CONTENT
+  Input should be 0, 1, 2, 3, 4 or 5 [type=enum, input_value='BLOCK_NONE', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+INFO:root:Session: b47f27c7-8826-4af3-8667-64bc5c74b3a5, Query: what is sky
+ERROR:root:Chat error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+INFO:root:Session: 830b99de-bad2-4c88-a9f1-16232b15e680, Query: how are you?
+ERROR:root:Chat error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+INFO:root:Session: 76f3d34f-0d9d-4d4c-8539-0c10b61be909, Query: what is sky
+INFO:root:Session: 9d8900f7-5ad6-45dc-a0d9-9ce5360e439e, Query: how are you?
+ERROR:root:Chat error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+ERROR:root:Chat error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+INFO:root:Session: 7c0629d9-8544-4492-8ab7-21b707e316d6, Query: string go
+ERROR:root:Chat error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+INFO:root:Session: 5f011783-ad2f-4789-9742-8374267f3237, Query: string go
+ERROR:root:Chat error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+INFO:root:Session: 18712835-4f58-4efb-8dcf-bf5b7a464089, Query: string go
+ERROR:root:Chat error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+INFO:root:Session: 0e1f22d3-b90c-485e-bf20-7819505e4405, Query: what is string
+ERROR:root:Chat error: Prompt must accept context as an input variable. Received prompt with input variables: ['chat_history', 'input']
+INFO:root:Session: 0806ca27-30d6-40ca-bfba-480de8e3fd2b, Query: what is string
+ERROR:root:Chat error: Prompt must accept context as an input variable. Received prompt with input variables: ['chat_history', 'input']
+INFO:root:Session: 1ca22696-5e69-47dd-a268-d0ca06936959, Query: what is string
+ERROR:root:Chat error: Prompt must accept context as an input variable. Received prompt with input variables: ['chat_history', 'input']
+INFO:root:Session: string, Query: what is string
+ERROR:root:Chat error: Prompt must accept context as an input variable. Received prompt with input variables: ['chat_history', 'input']
+INFO:root:Session: string, Query: what is string
+INFO:root:Session: 892e3560-0fc0-4f7a-a32f-01556dd63717, Query: what is string
+INFO:root:Session: f91dc78a-1dcc-411c-9942-05169a3f9bb2, Query: Malaria is caused by ?
+INFO:root:Session: 36fdf2e9-8c3b-4ab5-9b0a-2b1a2ce1bc7d, Query: what are its symptoms ?
+INFO:root:Session: c8f50dcb-e864-439f-866a-157da0219e97, Query: severe symptoms may include?
+INFO:root:Session: ac80a779-81f0-4236-953b-8bb32be417f6, Query: severe symptoms may include for malaria?
+INFO:root:Session: fef9c0ae-4c9e-4eff-9e77-e1ba2c918213, Query: its prevention?
+INFO:root:Session: 3029fac3-4a06-45a0-863b-072901007944, Query: what causes malaria?
+INFO:root:Session: 3eb4eb62-df84-4c21-b467-a5a5aa2ddc5c, Query: what are its symptoms?
+INFO:root:Session: a2f9cef1-1d57-4c02-95a3-a75e411b4ce9, Query: what are malaria symptoms?
+INFO:root:Session: 6a623826-d891-40a2-8f28-ce4ea37ceb97, Query: what causes malaria?
+INFO:root:Session: 13930fa2-6678-47c7-94df-66b53660712c, Query: what are the symptoms?
+INFO:root:Session: 6a623826-d891-40a2-8f28-ce4ea37ceb97, Query: what are the symptoms?
+ERROR:root:Chat error: name 'HumanMessage' is not defined
+INFO:root:Session: e902ac48-749b-47c3-bc87-f137bdcad43f, Query: what causes malaria?
+INFO:root:Session: string, Query: string
+ERROR:root:Chat error: name 'HumanMessage' is not defined
+INFO:root:Session: string, Query: string
+ERROR:root:Chat error: name 'HumanMessage' is not defined
+INFO:root:Session: string, Query: string
+ERROR:root:Chat error: name 'HumanMessage' is not defined
+INFO:root:Session: string, Query: string
+ERROR:root:Chat error: name 'HumanMessage' is not defined
+INFO:root:Session: string, Query: string
+ERROR:root:Chat error: name 'HumanMessage' is not defined
+INFO:root:Session: string, Query: hii
+ERROR:root:Chat error: name 'HumanMessage' is not defined
+INFO:root:Session ID: string, User Query: hii, Model: gemini-2.0-flash
+INFO:root:Session ID: string, AI Response: Hi there! How can I help you today?
+INFO:root:Session ID: None, User Query: what causes malaria, Model: gemini-2.0-flash
+INFO:root:Session ID: d62b3273-06c3-4684-9db8-4a5a8b2e5431, AI Response: Malaria is caused by Plasmodium parasites, which are spread to humans through the bites of infected female Anopheles mosquitoes. There are five parasite species that cause malaria in humans, with Plasmodium falciparum and Plasmodium vivax posing the greatest threat.
+INFO:root:Session ID: d62b3273-06c3-4684-9db8-4a5a8b2e5431, User Query: symptoms?, Model: gemini-2.0-flash
+INFO:root:Session ID: d62b3273-06c3-4684-9db8-4a5a8b2e5431, AI Response: Common symptoms of malaria include fever, headache, and chills, which usually appear 10 to 15 days after the infective mosquito bite. If not treated, malaria can quickly become severe and cause death. Severe symptoms may include anemia, respiratory distress, or organ failure.
+INFO:root:Session ID: None, User Query: kk, Model: gemini-2.0-flash
+INFO:root:Session ID: ed948684-267e-4042-afa6-16b25401fb01, AI Response: I'm sorry, I am unable to provide a response with the information provided. Is there anything specific you would like to know about cancer?
+INFO:root:Session ID: ed948684-267e-4042-afa6-16b25401fb01, User Query: what causes malaria?, Model: gemini-2.0-flash
+INFO:root:Session ID: ed948684-267e-4042-afa6-16b25401fb01, AI Response: Malaria is caused by Plasmodium parasites. These parasites are spread to humans through the bites of infected female Anopheles mosquitoes. There are five species of Plasmodium parasites that cause malaria in humans, with Plasmodium falciparum and Plasmodium vivax posing the greatest threat.
+INFO:root:Session ID: ed948684-267e-4042-afa6-16b25401fb01, User Query: what are the symptomps, Model: gemini-2.0-flash
+INFO:root:Session ID: ed948684-267e-4042-afa6-16b25401fb01, AI Response: Symptoms of malaria usually appear 10 to 15 days after the infective mosquito bite. Common symptoms include fever, headache, and chills. If not treated, malaria can quickly become severe and cause death. Severe symptoms may include anemia, respiratory distress, or organ failure.
+INFO:root:Session ID: ed948684-267e-4042-afa6-16b25401fb01, User Query: what causes typhoid?, Model: gemini-2.0-flash
+INFO:root:Session ID: ed948684-267e-4042-afa6-16b25401fb01, AI Response: Typhoid fever is caused by the ingestion of food or water contaminated with the feces of an infected person. Once ingested, the bacteria (Salmonella typhi) multiply and spread into the bloodstream.
+INFO:root:Session ID: ed948684-267e-4042-afa6-16b25401fb01, User Query: what is the treatment?, Model: gemini-2.0-flash
+INFO:root:Session ID: ed948684-267e-4042-afa6-16b25401fb01, AI Response: Typhoid is treated with antibiotics that kill the Salmonella bacteria. With appropriate antibiotic therapy, most people recover in a few days, but without treatment, typhoid fever can be fatal.
+INFO:root:Session ID: None, User Query: dengue, Model: gemini-2.0-flash
+INFO:root:Session ID: 6da4ba37-5495-4355-b040-fcd6cb9e5d8f, AI Response: Dengue is a disease with symptoms that typically begin three to fourteen days after infection, including high fever, headache, vomiting, muscle and joint pains, and a characteristic skin rash. Severe cases can cause dengue hemorrhagic fever, which leads to bleeding, blood plasma leakage, and potentially death.
+
+Prevention includes protecting against mosquito bites by using insect repellent, wearing long-sleeved clothing, and eliminating standing water where mosquitoes breed. There is a vaccine available in some countries for people who have previously been infected.
+
+There is no specific treatment for dengue. Supportive care includes rest, fluids, and medications to reduce fever and pain. Hospital care may be needed for severe cases to manage symptoms and monitor the patient's condition.
+INFO:root:Session ID: None, User Query: dengue, Model: gemini-2.0-flash
+INFO:root:Session ID: d9b5de56-43a1-46be-9f99-d3ef79db23d6, AI Response: Dengue fever is an infection that typically begins 3-14 days after infection. Symptoms include high fever, headache, vomiting, muscle and joint pain, and a skin rash. Severe cases can cause dengue hemorrhagic fever, which can lead to bleeding, blood plasma leakage, and potentially death.
+
+Prevention includes protecting against mosquito bites by using insect repellent, wearing long-sleeved clothing, and eliminating standing water where mosquitoes breed. There is a vaccine available in some countries for people who have previously been infected.
+
+There is no specific treatment for dengue. Supportive care includes rest, fluids, and medications to reduce fever and pain. Hospital care may be needed for severe cases to manage symptoms and monitor the patient's condition.
+INFO:root:Session ID: None, User Query: sc, Model: gemini-2.0-flash
+INFO:root:Session ID: 9dab43ae-e7e2-4b36-94e9-bdf96c834b23, AI Response: I am sorry, I cannot provide any information based on that input.
+INFO:root:Session ID: None, User Query: hi, Model: gemini-2.0-flash
+INFO:root:Session ID: d601ef17-22cb-477a-ab1d-5d44b8006a0e, AI Response: Hi, how can I help you today?
+INFO:root:Session ID: None, User Query: jknk, Model: gemini-2.0-flash
+INFO:root:Session ID: fae348c2-390c-4776-adfc-ef1755c6ceb8, AI Response: I'm sorry, I'm not sure what you're asking. Can you please clarify your question?
+INFO:root:Session ID: None, User Query: dengue?, Model: gemini-2.0-flash
+INFO:root:Session ID: 691314fc-f0eb-4379-9938-838838a55366, AI Response: Dengue is a viral infection transmitted by mosquitoes. Symptoms appear 3-14 days after infection and include high fever, headache, vomiting, muscle/joint pain, and a skin rash. Severe cases can lead to dengue hemorrhagic fever, causing bleeding and potentially death.
+
+Prevention involves avoiding mosquito bites (repellent, long sleeves, eliminating standing water). A vaccine exists in some countries for those previously infected.
+
+Treatment focuses on supportive care: rest, fluids, and fever/pain medication. Severe cases may require hospitalization.
+INFO:root:Session ID: None, User Query: malaria?, Model: gemini-2.0-flash
+INFO:root:Session ID: a557f0f0-be96-49eb-a751-09135ff3012d, AI Response: Malaria is a life-threatening disease caused by parasites transmitted to people through infected female Anopheles mosquitoes. It is common in tropical and subtropical climates.
+
+**Causes:** Malaria is caused by Plasmodium parasites spread to humans through the bites of infected mosquitoes.
+
+**Symptoms:** Common symptoms include fever, headache, and chills, appearing 10 to 15 days after the infective mosquito bite. Severe symptoms may include anemia, respiratory distress, or organ failure.
+
+**Prevention:** Preventive measures include using insecticide-treated mosquito nets, indoor spraying with insecticides, taking antimalarial medications when traveling to high-risk areas, and eliminating standing water sources to prevent mosquito breeding.
+
+**Treatment:** Malaria is treated with prescription drugs to kill the parasite. The type of drug and length of treatment depend on the type of malaria parasite, the severity of symptoms, and the location where the infection was acquired.
+INFO:root:Session ID: None, User Query: dengue, Model: gemini-2.0-flash
+INFO:root:Session ID: dcbba78c-2ad8-4c54-a2f1-503197912677, AI Response: Dengue is a viral infection transmitted by mosquitoes. Symptoms typically begin 3-14 days after infection and include high fever, headache, vomiting, muscle and joint pains, and a characteristic skin rash. Severe cases can cause dengue hemorrhagic fever, which can lead to bleeding, blood plasma leakage, and potentially death.
+
+There is no specific treatment for dengue, but supportive care includes rest, fluids, and medications to reduce fever and pain. Severe cases may require hospital care.
+
+Prevention includes protecting against mosquito bites by using insect repellent, wearing long-sleeved clothing, and eliminating standing water where mosquitoes breed. A vaccine is available in some countries for people who have previously been infected.
+INFO:root:Session ID: None, User Query: what is langchain, Model: gemini-2.0-flash
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, AI Response: I'm sorry, but the context provided does not contain information about Langchain.
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, User Query: What causes typhoid?, Model: gemini-2.0-flash
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, AI Response: Typhoid fever is caused by ingesting food or water contaminated with the feces of a person infected with the Salmonella typhi bacteria. Once ingested, the bacteria multiply and spread into the bloodstream.
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, User Query: what are its symptoms?, Model: gemini-2.0-flash
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, AI Response: I am sorry, but the context provided does not contain information about the symptoms of typhoid.
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, User Query: what are some preventions, Model: gemini-2.0-flash
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, AI Response: Effective prevention strategies include vaccination, improved sanitation, access to clean drinking water, and proper food handling. Handwashing with soap is also an important preventive measure.
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, User Query: symptoms?, Model: gemini-2.0-flash
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, AI Response: I'm sorry, but the context provided does not contain information about the symptoms of typhoid.
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, User Query: what causes cancer, Model: gemini-2.0-flash
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, AI Response: Causes of cancer are multifactorial and include genetic mutations, environmental exposures, lifestyle habits such as smoking or alcohol use, and certain infections like HPV.
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, User Query: what are its symptoms?, Model: gemini-2.0-flash
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, AI Response: The symptoms of cancer vary widely but may include unexplained weight loss, fatigue, lumps, pain, or changes in bodily functions.
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, User Query: how it can be prevented?, Model: gemini-2.0-flash
+INFO:root:Session ID: be6a69c4-1ce0-43c5-a522-ea54149e4501, AI Response: Prevention strategies, such as avoiding tobacco, eating a healthy diet, staying physically active, and getting regular screenings, can lower the risk of cancer.
+INFO:root:Session ID: None, User Query: what causes cancer?, Model: gemini-2.0-flash
+INFO:root:Session ID: aea50172-7341-4ca3-8f9a-5d6405d77702, AI Response: I am designed to provide information about Tuberculosis. Therefore, I cannot provide information about cancer.
+INFO:root:Session ID: None, User Query: What causes cancer?, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: 3f5938d0-885f-46da-87bc-f3d2346ccb74, AI Response: Cancer is a complex group of diseases caused by the uncontrolled growth and spread of abnormal cells. Here's a breakdown of the key factors involved:
+
+*   **DNA Mutations:** Cancer is fundamentally a genetic disease. It arises from changes (mutations) in genes that control cell growth and division. These mutations can be inherited, or more commonly, acquired during a person's lifetime.
+*   **Risk Factors:** Various factors can increase the risk of developing cancer by damaging DNA or disrupting normal cellular processes. These include:
+    *   **Tobacco:** Smoking is a leading cause of many types of cancer.
+    *   **Radiation:** Exposure to ionizing radiation (e.g., from X-rays, radon) and ultraviolet (UV) radiation from the sun.
+    *   **Chemicals and other environmental exposures:** Exposure to substances like asbestos, benzene, and certain pesticides.
+    *   **Infections:** Certain viruses (e.g., HPV, hepatitis B and C) and bacteria (e.g., H. pylori) can increase cancer risk.
+    *   **Diet and lifestyle:** Poor diet, lack of physical activity, obesity, and excessive alcohol consumption.
+    *   **Hormones:** Some hormones can increase the risk of certain cancers.
+    *   **Immunodeficiency:** A weakened immune system can increase the risk of certain cancers.
+    *   **Age:** The risk of cancer generally increases with age as cells accumulate more DNA damage over time.
+    *   **Heredity:** Inherited genetic mutations play a significant role in about 5-10% of cancers. These mutations can predispose individuals to developing certain types of cancer.
+INFO:root:Session ID: None, User Query: what is typhoid?, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: 44ad17a8-771f-401e-aaae-7a32358b0c95, AI Response: Typhoid fever is a bacterial infection that can spread throughout the body, affecting many organs. It's caused by a bacteria called Salmonella typhi (S. typhi).
+INFO:root:Session ID: None, User Query: what cause cancer, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: b59f38fe-8ff7-4db7-97b0-02ad4398854c, AI Response: Cancer is a complex disease with many possible causes. Here's a breakdown of the main factors:
+
+*   **Genetic Factors:** Some people inherit gene mutations that increase their risk of cancer.
+*   **Environmental Factors:** Exposure to certain substances in the environment, such as radiation, chemicals, and pollutants, can damage DNA and lead to cancer.
+*   **Lifestyle Factors:** Certain lifestyle choices, such as smoking, excessive alcohol consumption, an unhealthy diet, and lack of exercise, can increase the risk of cancer.
+*   **Infections:** Some viral and bacterial infections, such as HPV, hepatitis B and C, and Helicobacter pylori, can increase the risk of certain cancers.
+*   **Age:** The risk of cancer generally increases with age, as cells accumulate more DNA damage over time.
+*   **Hormones:** Hormonal imbalances or exposure to certain hormones can increase the risk of some cancers.
+*   **Immune System Problems:** A weakened immune system may be less effective at detecting and destroying cancer cells.
+INFO:root:Session ID: None, User Query: what is cancer?, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: a0093aac-3ce6-42f9-95cd-7f27f566b1ce, AI Response: Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body.
+INFO:root:Session ID: a0093aac-3ce6-42f9-95cd-7f27f566b1ce, User Query: what is langchain?, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: a0093aac-3ce6-42f9-95cd-7f27f566b1ce, AI Response: LangChain is a framework designed to simplify the creation of applications using large language models (LLMs). It provides tools and abstractions that make it easier to:
+
+*   **Connect to various data sources:** LangChain can integrate with different types of data, such as documents, databases, APIs, and more. This allows LLMs to access and utilize external information.
+*   **Chain together different components:** It enables you to create sequences of actions or "chains" that combine LLMs with other tools and functions. This allows you to build more complex and sophisticated applications.
+*   **Build context-aware applications:** LangChain helps you provide LLMs with the necessary context to generate accurate and relevant responses.
+*   **Create agents:** It supports the development of agents that can interact with the environment, make decisions, and take actions.
+
+In essence, LangChain acts as a bridge between LLMs and the real world, enabling developers to build powerful and versatile applications that leverage the capabilities of these models.
+INFO:root:Session ID: None, User Query: what is cancer?, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: db783ee3-56d5-4977-a832-8984baf5f4e4, AI Response: Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body.
+INFO:root:Session ID: db783ee3-56d5-4977-a832-8984baf5f4e4, User Query: what is toy, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: db783ee3-56d5-4977-a832-8984baf5f4e4, AI Response: A toy is an object, typically designed for children, that is used for play. Toys are generally distinguishable from tools by their usual lack of practical purpose; often, tools are used by adults or children for practical purposes. Toys can be anything that can be used for play, and come in a wide variety of forms and materials.
+INFO:root:Session ID: None, User Query: what is sinus, Model: gemini-2.0-flash
+INFO:root:Session ID: 1e6b26d8-7296-4414-b692-004562669712, AI Response: I'm sorry, but the context discusses cancer and its related aspects and does not contain information about sinuses.
+INFO:root:Session ID: None, User Query: what is typhoid?, Model: gemini-2.0-flash
+INFO:root:Session ID: 42a68452-652e-4037-9f67-06f28dc8fa11, AI Response: I'm sorry, but the provided text does not contain any information about typhoid. It focuses on cancer, its causes, symptoms, diagnosis, treatment, and prevention.
+INFO:root:Session ID: 42a68452-652e-4037-9f67-06f28dc8fa11, User Query: What causes typhoid?, Model: gemini-2.0-flash
+INFO:root:Session ID: 42a68452-652e-4037-9f67-06f28dc8fa11, AI Response: Typhoid is caused by Salmonella bacteria.
+INFO:root:Session ID: 42a68452-652e-4037-9f67-06f28dc8fa11, User Query: How can we prevent it?, Model: gemini-2.0-flash
+INFO:root:Session ID: 42a68452-652e-4037-9f67-06f28dc8fa11, AI Response: Effective prevention strategies include vaccination, improved sanitation, access to clean drinking water, and proper food handling. Handwashing with soap is also an important preventive measure.
+INFO:root:Session ID: 42a68452-652e-4037-9f67-06f28dc8fa11, User Query: what are its symptoms?, Model: gemini-2.0-flash
+INFO:root:Session ID: 42a68452-652e-4037-9f67-06f28dc8fa11, AI Response: I am sorry, but the text does not contain information about the symptoms of typhoid.
+INFO:root:Session ID: None, User Query: what causes cancer?, Model: gemini-2.0-flash
+INFO:root:Session ID: 3683e87a-ee0d-43a5-ae21-c6907a1ec56f, AI Response: The provided text is about tuberculosis (TB), not cancer. Therefore, I cannot answer your question using the given information.
+INFO:root:Session ID: None, User Query: what is cancer?, Model: gemini-2.0-flash
+INFO:root:Session ID: e7432707-c639-4471-a2ef-c3865e6d4ce2, AI Response: I am sorry, but the context does not contain information about cancer. It only contains information about tuberculosis (TB).
+INFO:root:Session ID: None, User Query: what is cancer?, Model: gemini-2.0-flash
+INFO:root:Session ID: c1427fd3-c991-4044-91ee-2dda1208cc63, AI Response: This document does not contain information about cancer. It discusses tuberculosis (TB), its symptoms, prevention, and treatment.
+INFO:root:Session ID: None, User Query: what is cancer?, Model: gemini-2.0-flash
+INFO:root:Session ID: 848766cb-591c-4aa2-bb62-ca3aacf01cdb, AI Response: This document does not contain information about cancer. It discusses tuberculosis (TB), its symptoms, prevention, and treatment.
+INFO:root:Session ID: 848766cb-591c-4aa2-bb62-ca3aacf01cdb, User Query: what is cancer, Model: gemini-2.0-flash
+INFO:root:Session ID: 848766cb-591c-4aa2-bb62-ca3aacf01cdb, AI Response: I am sorry, I cannot provide information on that topic. This document is about tuberculosis.
+INFO:root:Session ID: None, User Query: what is cancer, Model: gemini-2.0-flash
+INFO:root:Session ID: 89f7f6b6-e96c-49a0-ae96-4f8c60203de6, AI Response: I am sorry, but the context provided does not have information about cancer. It only contains information about fever, pain, and tuberculosis (TB).
+INFO:root:Session ID: 89f7f6b6-e96c-49a0-ae96-4f8c60203de6, User Query: what is cancer, Model: gemini-2.0-flash
+INFO:root:Session ID: 89f7f6b6-e96c-49a0-ae96-4f8c60203de6, AI Response: Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body.
+
+Here's a more detailed breakdown:
+
+*   **Uncontrolled Growth:** Normal cells grow, divide, and die in a regulated way. In cancer, this process goes wrong. Cells start to grow and multiply out of control, forming a mass called a tumor.
+*   **Spread (Metastasis):** Cancer cells can break away from the original tumor and travel through the bloodstream or lymphatic system to other parts of the body, where they can form new tumors. This process is called metastasis, and it's what makes cancer so dangerous.
+*   **Types of Cancer:** There are many different types of cancer, each named for the part of the body where it starts. For example, lung cancer starts in the lungs, and breast cancer starts in the breast. Cancers can also be grouped by the type of cell that forms them, such as carcinoma, sarcoma, leukemia, lymphoma, and myeloma.
+*   **Causes:** Cancer is caused by changes (mutations) to DNA within cells. These mutations can be inherited, caused by environmental factors like smoking or radiation, or occur randomly.
+*   **Treatment:** Cancer treatment depends on the type of cancer, its stage, and the person's overall health. Common treatments include surgery, radiation therapy, chemotherapy, immunotherapy, and targeted therapy.
+INFO:root:Session ID: None, User Query: what is cancer, Model: gemini-2.0-flash
+INFO:root:Session ID: a70fdf58-abe5-45aa-a0e3-3064f1917380, AI Response: The text you provided discusses fever, pain management, and tuberculosis (TB). It does not contain any information about cancer.
+INFO:root:Session ID: None, User Query: what is cancer, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: db466ed4-1be6-4be7-97de-f04fa50a2e86, AI Response: Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body.
+INFO:root:Session ID: None, User Query: what is cancer, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: 5dcc87cb-703c-45b3-b91a-404ec202ee09, AI Response: Cancer is a group of diseases in which cells grow and spread uncontrollably.
+INFO:root:Session ID: 5dcc87cb-703c-45b3-b91a-404ec202ee09, User Query: what is cancer, Model: gemini-2.0-flash
+WARNING:chromadb.segment.impl.vector.local_persistent_hnsw:Number of requested results 2 is greater than number of elements in index 0, updating n_results = 0
+INFO:root:Session ID: 5dcc87cb-703c-45b3-b91a-404ec202ee09, AI Response: Cancer is a collection of diseases in which abnormal cells divide without control and can invade other tissues. It can start almost anywhere in the human body, which is made up of trillions of cells. Normally, human cells grow and divide to form new cells as the body needs them. When cells grow old or become damaged, they die, and new cells take their place. When cancer develops, however, this orderly process breaks down. As cells become more and more abnormal, old or damaged cells survive when they should die, and new cells form when they are not needed. These extra cells can divide without stopping and may form growths called tumors. Cancerous tumors are malignant, which means they can spread into, or invade, nearby tissues. In addition, as these tumors grow, some cancer cells can break off and travel to distant places in the body through the blood or lymph system and form new tumors far from the original tumor.
+INFO:root:Session ID: None, User Query: what is typhoid, Model: gemini-2.0-flash
+INFO:root:Session ID: 7661962b-bab1-4090-9cec-1316b18e8265, AI Response: I'm sorry, but the provided text does not contain information about typhoid. It focuses on cancer.
+INFO:root:Session ID: None, User Query: what is dengue?, Model: gemini-2.0-flash
+INFO:root:Session ID: c19bf26a-e905-42c0-a16b-6f3fd49f6d01, AI Response: I'm sorry, but the text does not contain information about dengue. It focuses on cancer prevention, diagnosis, treatment, and research.
+INFO:root:Session ID: None, User Query: what is diabetes?, Model: gemini-2.0-flash
+INFO:root:Session ID: 24e4862a-4c97-436d-8eee-aa9e08c6a77f, AI Response: I am sorry, but the context provided does not contain information about diabetes. It discusses symptoms, diagnosis, and treatment options, including surgery, chemotherapy, radiation therapy, immunotherapy, and precision medicine. It also mentions prevention strategies such as avoiding tobacco, eating a healthy diet, staying physically active, and getting regular screenings.
+INFO:root:Session ID: None, User Query: what is diabetes, Model: gemini-2.0-flash
+INFO:root:Session ID: 4aa36cd0-78f2-49e4-961d-c9ed3a8e878a, AI Response: I am sorry, but the context does not contain information about diabetes. Would you like me to find information about diabetes?
+INFO:root:Session ID: 4aa36cd0-78f2-49e4-961d-c9ed3a8e878a, User Query: What is diabetes?, Model: gemini-2.0-flash
+INFO:root:Session ID: 4aa36cd0-78f2-49e4-961d-c9ed3a8e878a, AI Response: Diabetes Mellitus is a chronic condition that occurs when the body either doesn't produce enough insulin (Type 1) or becomes resistant to insulin (Type 2), the hormone responsible for regulating blood sugar levels. Type 1 diabetes is typically autoimmune in nature and often develops in childhood, while Type 2 is more common in adults and is closely linked to lifestyle factors such as obesity.
+INFO:root:Session ID: 4aa36cd0-78f2-49e4-961d-c9ed3a8e878a, User Query: what causes this condition?, Model: gemini-2.0-flash
+INFO:root:Session ID: 4aa36cd0-78f2-49e4-961d-c9ed3a8e878a, AI Response: The causes of diabetes depend on the type:
+
+*   **Type 1 diabetes:** This is typically autoimmune, meaning the body's immune system mistakenly attacks and destroys the insulin-producing cells in the pancreas.
+*   **Type 2 diabetes:** This is closely linked to lifestyle factors such as obesity.
+INFO:root:Session ID: 4aa36cd0-78f2-49e4-961d-c9ed3a8e878a, User Query: what are some preventions?, Model: gemini-2.0-flash
+INFO:root:Session ID: 4aa36cd0-78f2-49e4-961d-c9ed3a8e878a, AI Response: While Type 1 diabetes cannot currently be prevented, Type 2 diabetes is often avoidable through healthy lifestyle choices. Maintaining a balanced diet rich in whole grains, fruits, and vegetables, staying physically active, managing stress, and avoiding tobacco use are effective preventive measures. Regular checkups and blood sugar monitoring are also essential, particularly for individuals with a family history of diabetes or other risk factors.
+INFO:root:Session ID: None, User Query: what is diabetes?, Model: gemini-2.0-flash
+INFO:root:Session ID: b2e76961-ee1a-4bf8-8c7e-b4474880f8ca, AI Response: I am sorry, but the document does not contain information about diabetes. Can I help you with something else?
+INFO:root:Session ID: b2e76961-ee1a-4bf8-8c7e-b4474880f8ca, User Query: What is diabetes?, Model: gemini-2.0-flash
+INFO:root:Session ID: b2e76961-ee1a-4bf8-8c7e-b4474880f8ca, AI Response: Diabetes Mellitus is a chronic condition where the body either doesn't produce enough insulin (Type 1) or becomes resistant to insulin (Type 2). Insulin is the hormone responsible for regulating blood sugar levels. Type 1 is autoimmune and often develops in childhood, while Type 2 is more common in adults and linked to lifestyle factors like obesity. Common symptoms include frequent urination, excessive thirst, extreme fatigue, unexplained weight loss (more common in Type 1), blurred vision, and slow healing of wounds. Sometimes, especially in Type 2, symptoms develop gradually and go unnoticed for years. Untreated diabetes can lead to complications like nerve damage, kidney failure, and heart problems.
+INFO:root:Session ID: b2e76961-ee1a-4bf8-8c7e-b4474880f8ca, User Query: What are its causes?, Model: gemini-2.0-flash
+INFO:root:Session ID: b2e76961-ee1a-4bf8-8c7e-b4474880f8ca, AI Response: Type 1 diabetes is typically autoimmune, meaning the body's immune system mistakenly attacks and destroys the insulin-producing cells in the pancreas. Type 2 diabetes is more closely linked to lifestyle factors such as obesity.
+INFO:root:Session ID: b2e76961-ee1a-4bf8-8c7e-b4474880f8ca, User Query: tell me some preventions, Model: gemini-2.0-flash
+INFO:root:Session ID: b2e76961-ee1a-4bf8-8c7e-b4474880f8ca, AI Response: Okay, while Type 1 diabetes cannot currently be prevented, Type 2 diabetes is often avoidable through healthy lifestyle choices. Maintaining a balanced diet rich in whole grains, fruits, and vegetables, staying physically active, managing stress, and avoiding tobacco use are effective preventive measures. Regular checkups and blood sugar monitoring are also essential, particularly for individuals with a family history of diabetes or other risk factors.
+INFO:root:Session ID: None, User Query: what is diabetes?, Model: gemini-2.0-flash
+INFO:root:Session ID: eec41e0d-9873-4366-8c27-73d8a15e8f22, AI Response: The context provided does not contain information about diabetes. It discusses symptoms, diagnosis, and treatment options for a different condition, as well as prevention strategies.
+INFO:root:Session ID: None, User Query: what is diabetes?, Model: gemini-2.0-flash
+INFO:root:Session ID: 682523ae-a747-4a5e-8075-90518eb6a953, AI Response: The context provided does not contain information about diabetes. It discusses symptoms, treatments, and prevention strategies related to a different health condition, such as cancer.
+INFO:root:Session ID: 682523ae-a747-4a5e-8075-90518eb6a953, User Query: what is diabetes?, Model: gemini-2.0-flash
+INFO:root:Session ID: 682523ae-a747-4a5e-8075-90518eb6a953, AI Response: I am sorry, I cannot provide information about diabetes. The context provided does not contain information about diabetes. It discusses symptoms, treatments, and prevention strategies related to a different health condition, such as cancer.
